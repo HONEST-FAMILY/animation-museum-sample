@@ -1019,3 +1019,5 @@ a { color: inherit; }
 .hud-tc { color: var(--ink); min-width: 62px; }
 
 @media (max-width: 1180px) { .hud { display: none; } }
+
+.scroll-cue { display: none; }
