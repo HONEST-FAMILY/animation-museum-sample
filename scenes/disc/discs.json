@@ -1,0 +1,35 @@
+[
+ {
+  "key": "dancer",
+  "title": "춤추는 남자",
+  "year": "1835년경",
+  "n": 8,
+  "phase": 0.1564,
+  "fit": 0.99739,
+  "img": "img/dancer.webp",
+  "imgM": "img/dancer-m.webp",
+  "thumb": "img/dancer-t.webp"
+ },
+ {
+  "key": "cats",
+  "title": "고양이와 당나귀",
+  "year": "1830년경",
+  "n": 10,
+  "phase": 0.1067,
+  "fit": 0.99693,
+  "img": "img/cats.webp",
+  "imgM": "img/cats-m.webp",
+  "thumb": "img/cats-t.webp"
+ },
+ {
+  "key": "waltz",
+  "title": "왈츠 추는 남녀",
+  "year": "1893년",
+  "n": 13,
+  "phase": 0.0675,
+  "fit": 0.99664,
+  "img": "img/waltz.webp",
+  "imgM": "img/waltz-m.webp",
+  "thumb": "img/waltz-t.webp"
+ }
+]

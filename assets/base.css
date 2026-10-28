@@ -1,0 +1,64 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+
+:root {
+  --paper: #f6f4ef;
+  --paper-2: #ece8df;
+  --paper-3: #e2ddd2;
+  --ink: #16161a;
+  --ink-2: #4d4d55;
+  --ink-3: #8a8a91;
+  --line: rgba(22, 22, 26, 0.14);
+  --line-2: rgba(22, 22, 26, 0.32);
+  --blue: #2b5fd9;
+  --blue-soft: rgba(43, 95, 217, 0.16);
+  --red: #e0442b;
+  --font: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-feature-settings: "tnum" 1;
+  -webkit-font-smoothing: antialiased;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.am-scene {
+  position: relative;
+  overflow: hidden;
+}
+
+.am-scene canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.am-note {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.am-test {
+  margin: 0;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+}
+
+.am-test .am-scene {
+  width: 100vw;
+  height: 100svh;
+}
